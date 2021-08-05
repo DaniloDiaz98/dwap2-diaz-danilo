@@ -1,0 +1,17 @@
+[
+    {        
+      "imagen":"assets/img/Productos/c5.png",
+      "nombre":"LDUQ-2021",
+      "precio":"$65.00"
+    },
+    {
+      "imagen":"assets/img/Productos/c3.png",
+      "nombre":"CABJ-2001",
+      "precio":"$30.00"
+    },
+    {
+      "imagen":"assets/img/Productos/z1.png",
+      "nombre":"Adidas-Samba",
+      "precio":"$90.00"
+    }
+]

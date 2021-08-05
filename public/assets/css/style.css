@@ -1,0 +1,169 @@
+body{
+    background-color: #001233 !important;   
+}
+
+header{
+
+    height: 100vh;
+    background-image: url("../img/1.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+.btn-outline-light{
+    
+    background: none;
+    background-color: rgba(255, 255, 255, 0.412) !important;
+    font-size: 20px !important;
+    color: rgb(255, 255, 255) !important;
+    border-color: rgb(4, 4, 158) !important;
+    border: 2px dashed;
+    padding: 1em 2em;
+    font-size: 1em;  
+    transition: color 0.25s, transform 0.25s,  box-shadow 0.25s, border-color 0.25s; 
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+.btn-outline-light:hover{
+    font-family: 'Fruktur', cursive !important;
+    font-size: 20px !important;
+    border-color: grey;
+    color: rgb(4, 4, 158) !important;
+    cursor: pointer;
+    box-shadow:0 0.5em 0.5em -0.4em  rgb(165, 165, 165);
+    transform: translateY(-0.3em);
+}
+#dd{
+    width: 180px;
+    height: 150px;  
+}
+#dd:hover{
+    transform : scale(2);
+    filter: drop-shadow(0 0 0.8rem grey);
+}
+.btno{
+    font-size: 20px;
+    color:white;
+    background-color: rgba(255, 255, 255, 0.179);
+    border: 2px double white;    
+    border-radius: 10px;
+    text-align: center;
+}
+.btno:hover{
+    font-family: 'Fruktur', cursive;
+    border-color: rgba(49, 49, 49, 0.72);
+    color:rgb(55, 54, 54);
+    background-color: rgb(199, 199, 199);
+    cursor: pointer;
+    box-shadow:0 0.5em 0.5em -0.4em  rgb(165, 165, 165);
+    transform: translateY(-0.3em);
+}
+.banner{
+    background-color: rgba(169, 169, 169, 0.289);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50% , -50%);
+    border-radius: 10%;
+    padding: 3px 10px;
+    border: #376996 5px dashed;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#fraseTit{
+    font-size: 2em;
+    font-family: 'Recursive', sans-serif;
+    color:rgb(1, 1, 63);
+}
+#titulo{
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-size: 3em;
+    border-color: darkblue;
+}
+.borde{
+    border-top: 0.5rem solid white;
+}
+h1{
+    
+    color:rgb(1, 1, 63) ;
+    font-family: 'Recursive', sans-serif;
+}
+#t2{
+    font-size: 27px;
+    color:#0353a4 ;
+    font-family: 'Recursive', sans-serif;
+}
+h2{
+    font-family: 'Dancing Script', cursive;
+    color:white;    
+}
+
+p{
+    color: #001233;
+}
+#p2{
+    color:#376996;
+}
+img{
+    width: 180px;
+    height: 150px;    
+}
+.about{
+    
+    background-color: #376996;
+    display: flex;
+    flex-direction:row;   
+    justify-content:center;
+}
+.product{
+    display: flex;
+    flex-direction:row;   
+    justify-content:center;
+}
+#prod{
+    border: #376996 1px dashed;      
+    text-align: center;    
+}
+.contact{    
+    background-color: #376996;
+    display: flex;
+    flex-direction:row;   
+    justify-content:center;
+}
+footer{
+    clear: left;
+    display: block;    
+    text-align: center;
+    padding: 15px;
+}
+footer h2{
+    font-size: 15px;
+}
+
+
+@media(max-width: 768px){
+    section.banner{
+        font-size: 1em;
+        text-align: center;
+    } 
+    section.about {
+        font-size: 1em;
+        
+    }
+    section.contact {
+        font-size: 1em;
+        text-align: center;
+    }
+    section.product{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-basis: 600px;
+    }
+   
+}
